@@ -1,0 +1,1123 @@
+#Hablu = [ 'sayeem',  'Nayeem',  'Hasan']
+
+#Hablu[0] = ( 'kabir')
+
+#print(Hablu)
+
+#Add list item
+
+#append er maddhome
+
+#Hablu.append(10)
+
+#print(Hablu)
+
+#insert items
+
+#Hablu.insert(4, 'Rana')
+
+#print(Hablu)
+
+#Remove items list
+
+#Hablu = ['sayeem', 'Nayeem','kabir']
+
+#Hablu.remove('Nayeem')
+
+#print(Hablu)
+
+# remove items by using pop()
+
+#Hablu.pop(0)
+
+#print(Hablu)
+
+# remove items by using del 
+
+#kablu = [ 'fish','cat','tiger','mango']
+
+#del kablu[0]
+
+#print(kablu)
+
+# remove item by using clear 
+
+#kablu = ['mango','fish','cat',220,'cool']
+
+#kablu.clear()
+
+#print(kablu)
+
+# for loop
+
+#Looplist = [ 'fatema', 'rumana', 'papiya','hira']
+
+#for x in Looplist:
+
+# print(x)
+
+# range() and len () function
+
+
+#Looplist = [ 'fatema', 'rumana', 'papiya','hira']
+
+#for x in range(len(Looplist)):
+#	
+#	 print(x)
+
+##while loop
+
+#Looplist = [ 'fatema', 'rumana', 'papiya','hira']
+
+#y = 0
+
+#while y < len(Looplist):
+#	
+#	 print(Looplist[y])
+#	 
+#	 y = y+1
+
+###list comprehension for loop diye
+
+#num = [1,2,3,4,5]
+
+#name =[ x*2 for x in num]
+
+#print(name)
+
+##sort list
+
+#num =[9,8,7,6,13,16,5,4,3,2,1]
+
+#num1 =['g','d','e','c','f',]
+
+#num.sort()
+
+#print(num)
+
+#print(num1)
+
+###reverse list
+
+#num =[1,2,3,4,5,6,7,8,9]
+
+#num.sort(reverse = True)
+
+#print(num) 
+
+##copy list
+
+#number = [1,2,3,4, 5,6,7,8,9]
+
+#number1 = number.copy()
+
+#print(number)
+#print(number1)
+
+##join list using +
+
+#list1 =[1,2,3,4, 5]
+#list2 =[6,7,8,9,10]
+#list3 = list1 + list2
+
+#print(list3)
+
+## join list by extend
+
+
+#list1 =['a','b','c']
+#list2 =[6,7,8,9,10]
+
+#list1.extend(list2)
+
+#print(list1)
+
+## Matrix
+
+#kablu = [
+
+#[1,2,3,4,5],
+
+#[6,7,8,9]
+
+#]
+
+#print([1][0])
+
+#4:26:24 second
+
+###tuple type data
+
+#Data =(1,2,3,'sayeem',True)
+
+#print(type(Data))
+
+##Negative indexing data last thke minas 1 dora hoy
+
+#Data =('kabir','sayeem',1,2,3,4,'Rahim')
+
+#print(Data[-6])
+
+## Range of index 
+
+#Data = ('sayeem','Nayeem','kabir','Hasan','Mahin','sanju')
+
+#print(Data[1:4])
+
+#Tuple =('sayeem','Nayeem','kabir')
+
+#y = list(Tuple)
+
+#x = ("apple", "banana", "cherry")
+#y = list(x)
+
+#y[1] = 'Mango'
+#x = tuple(y)
+
+#print(x)
+
+#Add item by append()
+
+#x = ("apple", "banana", "cherry")
+
+#y = list(x)
+
+#y.append('Mango')
+
+#print(y)
+
+
+#thistuple = ("apple", "banana", "cherry")
+#y = ("orange",)
+#thistuple += y
+
+#print(thistuple)
+
+## unpack tuple 
+
+#fruits = ("apple", "banana", "cherry")
+
+#( a, b, *c) = fruits
+
+#print(a)
+#print(b)
+#ptint(c)
+
+#fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+#(green, *red, black) = fruits
+
+#print(black)
+
+
+##Loop tuples
+
+#thistuple = ("apple", "banana", "cherry")
+#for x in thistuple:
+#  print(x)
+#  
+#  ### tuple by for loop and range() and len()
+
+#Data = ('apple',  'banana', 'cherry')
+
+#for y in range(len(Data)):
+#	
+#	print(Data[y])
+
+## tuple by while loop
+
+#Data = ("apple", "banana", "cherry")
+
+#i = 0
+
+#while i < len(Data):
+#	
+#	print(Data[i])
+#	
+#	i = i+1
+#	
+##5:14 minutes	
+
+###join two tuple 
+
+#num1 =(1,2,3,4,5)
+#num2 =(6,7,8,9,10)
+#num3 = num1 +num2
+
+#print(num3)
+
+## multiole tuple 
+
+#num1 =(1,2,3,4,5)
+#x = num1* 2
+#print(x)
+
+## tuple method by index
+
+#num1 =('sayeem', 'Nayeem','kabir','Hasan')
+
+#x = num1.index('sayeem')
+
+#print(x)
+
+
+## count()
+
+#Data =('sayeem', 'Nayeem','kabir','Hasan',5,7,7,8)
+
+#x = Data.count(7)
+
+#print(x)
+
+### python sets
+
+#Data ={2,3,4,0,'sayeem','Hasan',True}
+
+#print(Data)
+
+## len()
+
+#Data ={'sayeem', 'Nayeem','kabir','Hasan',5,7,7,8}
+
+#print(len(Data))
+
+## Access items by for loop
+
+#thisset = {'apple', 'banana', 'cherry'}
+
+#for x in thisset :
+#	
+#	print(x)
+#	
+#	print('apple'  in thisset)
+
+# Add items 
+
+#thisset = {'apple', 'banana', 'cherry'}
+
+#thisset.add('orange')
+
+#print(thisset)
+
+## update() sets
+
+#thisset = {"apple", "banana", "cherry"}
+#tropical = {"pineapple", "mango", "papaya"}
+
+#thisset.update(tropical)
+
+#print(thisset)
+
+### Add elements of a list to at set:
+#	
+
+
+#thisset = {"apple", "banana", "cherry"}
+#mylist = ["kiwi", "orange"]
+
+#thisset.update(mylist)
+
+#print(thisset)
+
+#thisset = {'apple', 'banan', 'cherry',5,7}
+
+#mylist = ['kiwi', 'orange', 8,9]
+
+#thisset.update(mylist)
+
+#print(thisset)
+## remove items
+
+#Data = { 1,2,3,4}
+
+#Data.remove(3)
+
+#print(Data)
+
+## Discard items 
+
+#Data = {1,4,5,6,0,9}
+
+#Data.discard(10)
+#print(Data)
+
+#Data = { 'sulaiman','sayeem','kabir','Liton'}
+
+#Data.discard('kabir')
+#print(Data)
+
+## remove Data by pop method
+
+#Data = { ' sayeem ', ' sulaiman ', ' Hasan '}
+#Data.pop()
+#print(Data)
+
+## Remove item by using clear()
+
+#Data = { 'sohan', 'burhan', 'kawsar'}
+#Data.clear()
+#print(Data)
+
+## Loop sets 
+
+#Name = { 'apple','banana','cherry'}
+
+#for x in Name :
+#	 print(x)
+#	 
+#	 ##### join set by union()
+#set1 = {"a", "b", "c"}
+#set2 = {1, 2, 3}
+
+#set3 = set1.union(set2)
+#print(set3)
+
+### add Items by update () method 
+
+#Data1 = { 'Apple','Mango','cat','Dog'}
+#Data2 = { 'sayeem','Nayeem','Hasan'}
+
+#Data1.update(Data2)
+#print(Data1)
+
+### Add items by intersection()
+
+#Data1 = { 'Apple','Mango','Egg','Banana'}
+#Data2 = { 'Microsoft', 'Apple','Mi'}
+#Data3 = Data1.intersection(Data2)
+#print(Data3)
+
+### Accessing Items by dictionary 
+
+#thisdict = {
+#  "brand": "Ford",
+#  "model": "Mustang",
+#  "year": 1964
+#}
+#x = thisdict["year"]
+#print(x)
+
+#Dictionary = { 
+#'Name': 'sulaiman',
+#'class': 12,
+#'village': 'chunirchar'
+#}
+#y = Dictionary['class']
+#print(y)
+
+#### Accessing items by get() method
+
+#dictionary = { 
+
+#'fruits': 'Apple',
+#'Brand': 'Lotto',
+#'Month': 2025
+#}
+#x = dictionary.get('Brand')
+#print(x)
+
+#thisdict = {
+#  "brand": "Ford",
+#  "model": "Mustang",
+#  "year": 1964
+#}
+
+#print(thisdict['model'])
+
+## Access Dictionary items by keys() Method
+
+#student = {
+
+#"Name": "Sulaiman",
+#"class": 12,
+#"village": "Chunirchar"
+#}
+#x =student.keys()
+#print(x)
+
+## values() Method
+#x = student.values()
+#print(x)
+
+## if and in Method
+
+#thisdict = {
+#  "brand": "Ford",
+#  "model": "Mustang",
+#  "year": 1964
+#}
+#if "model" in thisdict:
+#  print("Yes, 'model' is one of the keys in the thisdict dictionary")
+#  
+#if "brand" in thisdict :
+#  print("Yes, 'Model 'is one of the keys in the thisdict dictionary")
+
+### change dictionary items
+
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara"
+#}
+#x = studentinfo["postofficr"] = "Dhakpara"
+
+#print(x)
+## change dictionary items by update() Method
+
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "2100"
+#}
+#studentinfo.update({"Postoffice" : "2200"})
+
+#print(studentinfo["Postoffice"])
+
+## Remove dictionary items by pop() Method
+
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara"
+#"Zipcode": 2100
+#}
+#studentinfo.pop("Village")
+#print(studentinfo)
+## remove items by popitem()
+
+
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara",
+#"Zipcode" : 2100
+#}
+#studentinfo.popitem()
+#print(studentinfo)
+## Add Dictionary item by update()
+
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara",
+#"Zipcode" : 2100
+#}
+#studentinfo.update({"color":"white"})
+#print(studentinfo)
+
+## Loop dictionary 
+
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara",
+#"Zipcode" : 2100
+#}
+#for x in studentinfo :
+#	print(studentinfo)
+
+## for Loop dictionary by values()
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara",
+#"Zipcode" : 2100
+#}
+#for x in studentinfo.values():
+# for x in studentinfo.keys():	
+# print(x)
+
+### For loop by keys()
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara",
+#"Zipcode" : 2100
+#}
+#for x in studentinfo.keys():
+#	print(x)
+
+## Loop by items ()
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara",
+#"Zipcode" : 2100
+#}
+#for x in studentinfo.items():
+#	print(x)
+## copy dictionary by copy()
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara",
+#"Zipcode" : 2100
+#}
+#x = studentinfo.copy()
+#print(studentinfo)
+# copy dictionary by dict()
+#studentinfo = { 
+#"Name": "Sayeem",
+#"Village": "Chunirchar",
+#"Postoffice": "Dikpara",
+#"Zipcode" : 2100
+#}
+#x = dict(studentinfo)
+#print(x)
+
+## Nested dictionary
+#Mychildren = {
+#"children1" : {"Name":"shakib",
+#"Year":2004 },
+#"children2":{"Name":"Hasan",
+#"Year": 2005},
+#"children":{ "Name":"Kabir",
+#"Year":2006}
+#}
+#print(Mychildren)
+
+## Access specefic items by [] brackets
+#Mychildren = {
+#"children1" : {"Name":"shakib",
+#"Year":2004 },
+#"children2":{"Name":"Hasan",
+#"Year": 2005},
+#"children":{ "Name":"Kabir",
+#"Year":2006}
+#}
+#print(Mychildren["children2"]["Name"])
+## Loop Dictionary by items()
+#Mychildren = {
+#"children1" : {"Name":"shakib",
+#"Year":2004 },
+#"children2":{"Name":"Hasan",
+#"Year": 2005},
+#"children3":{ "Name":"Kabir",
+#"Year":2006}
+#}
+
+#for x in Mychildren.items():
+#	print(x)
+
+#Mychildren = {
+#"children1" : {"Name":"shakib",
+#"Year":2004 },
+#"children2":{"Name":"Hasan",
+#"Year": 2005},
+#"children":{ "Name":"Kabir",
+#"Year":2006}
+#}
+#x = Mychildren.copy()
+#print(x)
+
+### Python Conditions and If statements
+
+#Equals: a == b
+#Not Equals: a != b
+#Less than: a < b
+#Less than or equal to: a <= b
+#Greater than: a > b
+#Greater than or equal to: a >= b
+
+########## python if conditions 
+#a = 30 
+#b = 40 
+#if  b > a :
+#	print("b hocce a er theke boro")
+
+###### else condition 
+
+#a = 300
+#b = 40 
+
+#if b > a :
+#	print("b is greater than a ")
+#	
+#else :
+#		print("a is greater than b ")
+
+### elif conditions 
+
+#a = 300
+#b = 300
+
+#if a < b :
+#	print("b is greater than a")
+#	
+#elif a == b :
+#	print("a and b are equal")
+#	
+#else :
+#	print("a is greater than b ")
+
+#a = 200
+#b = 30
+#if a > b : print("b is greater than a ") 
+##
+#a = 300
+#b = 40
+#print("A") if a < b else print("B")
+
+###One line if else statement, with 3 conditions:
+#a = 3000
+#b = 30000
+#print("A") if a > b else print("=") if a == b else print("B")
+
+#a = 250
+#b = 100
+#c = 350
+#if a > b and c > a :
+#	print(" Both conditions are true")
+
+#x = 50
+
+#if x > 10:
+#  print("Above ten,")
+#  if x > 20:
+#    print("and also above 20!")
+#  else:
+#    print("but not above 20.")
+
+## pass the programme by pass
+#a = 33
+#b = 200
+
+#if b > a:
+#  pass
+### while loop 
+#i = 1 
+#while i < 6 :
+#	print(i)
+#	i += 1
+
+##### For Loop 
+
+#Fruits = ["Apple", "Banana","Cherry"]
+#for x in Fruits :
+#	print(x)
+## break the programme 
+#fruits = ["apple", "banana", "cherry"]
+#for x in fruits:
+#  print(x)
+#  if x == "banana":
+#    break
+#### range()
+#for x in range(2,30,3):
+#	print(x)
+
+## python functions
+
+#def my_function():
+#  print("Hello from a function")
+
+#my_function()
+
+#def myfun(a,b):
+#	sum = a + b 
+#	print(sum)
+
+#myfun(20,10)
+#myfun(500,300)
+
+#def myfunction(x,y):
+#	sum = x - y 
+#	print(sum)
+#myfunction(400,200)
+#myfunction(500,80000)
+
+#def my_function(*kids):
+#  print("The youngest child is " + kids[2])
+
+#my_function("Emil", "Tobias", "Linus")
+
+#def my_function(child3, child2, child1):
+#  print("The youngest child is " + child3)
+
+#my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
+
+#def my_function(country = "Norway"):
+#  print("I am from " + country)
+
+#my_function("Sweden")
+#my_function("India")
+#my_function()
+#my_function("Brazil")
+#my_function()
+
+#def my_function(food):
+#  for x in food:
+#    print(x)
+
+#fruits = ["apple", "banana", "cherry"]
+
+#my_function(fruits)
+
+#def my_function(x):
+#  return 5 * x
+
+#print(my_function(3))
+#print(my_function(5))
+#print(my_function(10))
+
+## Break and continue programme
+
+#for x in range(7):
+#	if x ==5:
+#		break		
+#print(x)
+
+#list = ["sulaiman","sayeem","Nayeem","Hasan","kabir"]
+
+#for x in range(len(list)):
+#	if x == 3:
+#		continue
+#print(x)
+
+### Recurction by refun() Method 
+
+#def refun():
+#	print("sulaiman")
+#	refun()
+#	
+#refun()
+
+##### zip function
+
+#list1 = ["sulaiman","sayeem","kawsar"]
+#list2 = ["Google","apple","Microsoft"]
+
+#print(list(zip(list1,list2)))
+
+###### python Lambda 
+#x = lambda x,y : x + y
+#print(x(50,60))
+
+##### Debugging 
+#i = 0 
+#while i < 10:
+# print(i)
+# i += 1
+
+## Arrays
+#Myarray = ["sulaiman","sayeem","Hasib"]
+#Myarray[1] = "kabir"
+#print(Myarray)
+
+##### python classes and object
+#class Hablu:
+#	Name = ""
+#	roll = ""
+#	
+#a = Hablu()
+#b = Hablu()
+#a.Name = "sulaiman"
+#b.roll = 12
+#print(a.Name)
+#print(b.roll)
+
+#class Gablu:
+#	Name = ""
+#	village = ""
+#	
+#a = Gablu()
+#b = Gablu()
+#a.Name = "sulaiman"
+#b.village = "chunirchar"
+#print(a.Name)
+#print(b.village)
+
+## Inheritance 
+#class Baba: 
+# car = "BMW"
+# Taka = " 10 lakh"
+# Home = "12 floor"
+
+#class kaka(Baba):
+#	Brokenhome = ""
+#	Brokenphone = ""
+#	 
+#k = kaka()
+#print(k.car)
+
+#class elderbrother :
+#	Home = "alisan bari"
+#	car = "Toyota"
+#	Tk ="10 Milion"
+#	
+#class youngerbrother(elderbrother) :
+#	 oldhome =""
+#	 oldcar =""
+#	 
+#	 
+#y = youngerbrother()
+#print(y.car)
+#print(y.Tk)
+#print(y.Home)
+#	 
+### Multiple inheritance
+
+#class Baba :
+#	Home = "Alisan bari"
+#	car = "BMw"
+#	Tk = "12 Hajar"
+#	
+#class Baba2 :
+#	computer = "asus"
+#	ac = "walton"
+#	camera =  "freefin"
+#	
+#class Baba3 :
+#	dictionary = "joy pocket"
+#	book = " The Hundred"
+#	
+#class kaka(Baba,Baba2,Baba3): 
+# 
+# 	 brokenhome = ""
+# 	 brokenphone =""
+# 	 	 
+#	
+#y = kaka()
+#print(y.book)
+
+#### Multilevel inheritance
+
+#class baba :
+# 	home = "10 floor home"
+# 	car = "BMW car"
+# 	phone = "Iphone"
+# 	
+#class son1(baba):
+# 	computer ="asus"
+# 	pc = "dell"
+# 	camera = "fifine"
+# 	
+#class son2(son1):
+# 	ac ="walton"
+# 	freez = "vision"
+# 	laptop = "apple"
+# 	
+#class son3(son2):
+# 	Microphone = ""
+# 	keyboard = ""
+# 	Mouse = ""
+# 	
+#k = son3()
+# 
+#print(k.phone)
+#print(k.laptop)
+#print(k.camera)
+#print(k.ac)
+
+##### Hybrid and hierarcical inheritance
+
+##### python iterators 
+
+#list = [1,2,3,4,"sulaiman","sayeem","kabir"]
+
+#for x in list:
+#	
+#	print(x)
+
+#list = [1,2,"Hasan","kabir"]
+
+#x = iter(list)
+#print(next(x))
+#print(next(x))
+#print(next(x))
+#print(next(x))
+
+#list = ["sayeem","Nayeem","lalu",23,34]
+
+#x = iter(list)
+#print(next(x))
+#print(next(x))
+#print(next(x))
+
+##### python scope 
+
+#a = 40
+#b = 50
+
+#def hablu():
+#	x = 200
+#	print(a)
+#	print(b)
+#	print(x)
+#	
+#hablu()
+## Global scope 
+
+#x = 400
+
+#def hablu():
+#	global x
+#	x = 300
+#	print(x)
+#	
+#hablu()
+
+###### python Datetime
+
+#import datetime
+
+#x = datetime.datetime.now()
+
+#print(x) # only date and time 
+
+#import datetime 
+
+#x = datetime.datetime.now()
+
+#print(x.strftime("%A")) # only day name 
+
+#print(x.strftime("%d")) # only date
+
+#print(x.strftime("%m")) # only month
+
+#print(x.year) # only year
+
+#print(x.strftime("%b")) # only month short version
+
+
+#print(x.strftime("%Y")) # only year full version
+
+
+#print(x.strftime("%p")) # AM or PM 
+
+
+#print(x.strftime("%z")) # Time zone
+
+
+#print(x.strftime("%x")) # local version of date 
+
+
+#print(x.strftime("%b"))
+
+######## python Math 
+
+#x = min(10,20,50)
+
+#y = max(10,20,50)
+
+#print(x)
+#print(y)
+
+#x = abs(-440) # for remove -
+#print(x)
+
+#a = pow(5,3) # gun korar jonno 
+
+#print(a)
+
+#x = pow(7,2)
+
+#print(x)
+
+#import math
+
+#a = math.sqrt(64)
+
+#print(a)
+
+#### python Regex
+
+#import re 
+
+#text = ("My name is sulaiman islam sayeem")
+#a = re.findall("[a-m]",text)
+#print(a)
+
+#import re 
+
+#text = ("allah is always watching me!")
+
+#a = re.findall("[a-z]",text)
+
+#print(a)
+
+###### python regex by "^1" Method
+#import re 
+
+#text = ("1 is good number")
+
+#a = re.findall("^1",text)
+
+#if a:
+#	print("It is true")
+#	
+#else:
+#	print("It is not true")
+
+### python try expect
+
+#try:
+#	print(x)
+#	
+#except:
+#	print("hellow world")
+#	print("Iphone is the best phone in Bangladesh")
+#	print("my name is sayeem")
+#	print("Not only but also")
+
+##### python file open
+#Hd = open("/storage/emulated/0/Download/Demo.txt","r")
+
+#print(Hd.read())
+
+#### File write 
+
+#hablu= open("/storage/emulated/0/Download/Demo.txt","r")
+
+#hablu.write("I love programming and fishing!\n")
+
+#print(hablu.read())
+
+##### Delete file 
+
+#import os 
+
+#os.remove("/storage/emulated/0/Download/example.mp3")
+
+## folder remove 
+
+#import os 
+
+#os.rmdir("/storage/emulated/0/Download/hablu")
+
+##### create my own module 
+
+#import Module 
+
+#Module.hablu()
+
+#### introduction to oop 
+
+#### constractor 
+#### paramiterized constractor
+
+#class parentinfo:
+#	
+#	 def sayeeminfo(self,name,age):
+#	     print(f"My name is {name}, my age is {age}")
+#		
+#k = parentinfo()
+#k.sayeeminfo("sulaiman",21)
+
+#class Myinfo:
+#	
+#	def sulaimaninfo(self,name,age):
+#		print(f"My name is {name},My age is {age}")
+#		
+#k = Myinfo()
+#k.sulaimaninfo("sayeem",23)
+
+#class Myinfo:
+#	
+# 	def __init__(self,name,number):
+#	    print(f"my name is {name},my number is {number}")
+#	
+#k = Myinfo("sulaiman","01623743928")
+
+##### Introducting Method 
+
+#### Hablu Programmer python course is finished ####
